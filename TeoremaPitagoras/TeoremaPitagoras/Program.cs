@@ -10,7 +10,7 @@ namespace TeoremaPitagoras
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Algoridmo Teorema de Pitagoras");
+            Console.WriteLine("Algoritmo Teorema de Pitagoras");
 
             Console.WriteLine("Ingresa lado A:");
             int a = int.Parse(Console.ReadLine());
@@ -18,8 +18,10 @@ namespace TeoremaPitagoras
             Console.WriteLine("Ingresa lado B:");
             int b = int.Parse(Console.ReadLine());
 
-
-
+            double C = Math.Pow(a, 2) + Math.Pow(b, 2);
+            Console.WriteLine("El resultado es:" + C);
+            C = Math.Sqrt(C);
+            Console.WriteLine("La raiz cuadrada es:" + C);
             Console.ReadKey();
         }
     }
