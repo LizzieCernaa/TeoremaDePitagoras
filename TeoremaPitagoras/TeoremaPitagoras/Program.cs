@@ -11,6 +11,9 @@ namespace TeoremaPitagoras
         static void Main(string[] args)
         {
             Console.WriteLine("Algoridmo Teorema de Pitagoras");
+            Console.WriteLine("Ingresa lado A:");
+            int a = int.Parse(Console.ReadLine());
+
 
             Console.ReadKey();
         }
