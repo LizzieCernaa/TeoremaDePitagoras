@@ -19,9 +19,8 @@ namespace TeoremaPitagoras
             int b = int.Parse(Console.ReadLine());
 
             double C = Math.Pow(a, 2) + Math.Pow(b, 2);
-            Console.WriteLine("El resultado es:" + C);
             C = Math.Sqrt(C);
-            Console.WriteLine("La raiz cuadrada es:" + C);
+            Console.WriteLine("C = " + C);
             Console.ReadKey();
         }
     }
