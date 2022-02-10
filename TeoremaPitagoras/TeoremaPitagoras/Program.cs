@@ -10,6 +10,9 @@ namespace TeoremaPitagoras
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Algoridmo Teorema de Pitagoras");
+
+            Console.ReadKey();
         }
     }
 }
